@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi blog sobre la música</title>
+        <link rel="stylesheet" href="estilosBlog.css">
+
+        <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Mi blog de de la música</h1>
+          </div>
+  
+          <nav>
+  
+            <a href="BLOGINDEX.html">Inicio</a>
+            <a href="Artistas-Muse.html">Bandas Favoritas</a>
+            <a href="QuienSoy.html">¿Quién soy?</a>
+            <a href="Contactanos.html">Contactanos</a>
+  
+          </nav>
+  
+        </header>
+  
+        <main>
+
+              <form id="form">
+                <div class="field">
+                  <label for="from_name">Mensaje de:</label>
+                  <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                  <label for="emaijis_nombre">Nombre</label>
+                  <input type="text" name="emaijis_nombre" id="emaijis_nombre">
+                </div>
+                <div class="field">
+                  <label for="emaijis_corrreo">Correo</label>
+                  <input type="text" name="emaijis_corrreo" id="emaijis_corrreo">
+                </div>
+                <div class="field">
+                  <label for="emaijis_proposito">Proposito</label>
+                  <input type="text" name="emaijis_proposito" id="emaijis_proposito">
+                </div>
+                <div class="field">
+                  <label for="emaijis_mensaje">Mensaje</label>
+                  <input type="text" name="emaijis_mensaje" id="emaijis_mensaje">
+                </div>
+              
+                <input type="submit" id="button" value="Enviar" >
+              </form>
+
+              <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            
+            <script type="text/javascript">
+              emailjs.init('V_L3QbYn6NqcF45uz')
+            </script>
+
+            <script src="formulario.js"></script>
+
+        </main>
+
+        <footer>
+
+            <p>2023 - Mi blog sobre la música</p>
+      
+          </footer>
+        
+    </body>
+</html>
+
+
+
+
